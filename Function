@@ -1,0 +1,16 @@
+ // ## Write a fuction for prime number ##
+function checkprime(N){
+let count=0;
+for(let i=2;i*i<=N;i++)
+{
+if (N%i==0)
+{
+count++;
+}
+if (count ==0){
+return true}
+esle{
+return false}
+ 
+let ans=checkprime(N);
+console.log(ans);
