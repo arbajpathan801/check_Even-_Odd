@@ -11,6 +11,6 @@ if (count ==0){
 return true}
 esle{
 return false}
- 
+ }
 let ans=checkprime(N);
-console.log(ans);
+console.log(ans);}
